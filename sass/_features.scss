@@ -6,7 +6,7 @@
     
     display: grid;
     // grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)) // dziala jak mediaqueries
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); // dziala jak mediaqueries
     // grid-template-rows: auto auto; -bez tego dziala tak samo
     grid-gap: 6rem;
     align-items: start;
@@ -20,7 +20,7 @@
     grid-column-gap: 2.5rem;
 
     &__icon {
-        fill: $color-primary;
+        fill: $color-primary; 
         width: 4.5rem;
         height: 4.5rem;
         grid-row: 1 / span 2;
